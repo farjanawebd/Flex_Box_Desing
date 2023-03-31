@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+img{
+
+max-width: 100%;
+
+}
+
+.zerobanner{
+
+padding: 400px 0;
+
+background:hsla(0, 46%, 59%, 0.034) url(../images/image-6.jpg);
+background-repeat: no-repeat;
+background-position: 0 50%;
+background-size: cover;
+background-attachment: fixed;
+background-blend-mode:initial;
+}
+
+
+
+.bannercontant{
+
+max-width: 590px;
+margin:0 auto;
+text-align: center;
+
+
+
+}
+
+.bannercontant h1{
+
+font-size: 40px;
+color: hwb(0 93% 3%);
+
+
+}
+
+.bannercontant p{
+font-size: 18px;
+text-align: center;
+color: hsl(0, 14%, 95%);
+
+}
+
+
+.bolosection{
+
+    padding: 50px 0;
+
+
+
+}
+
+.container{
+
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+
+
+
+    
+
+
+
+
+
+.column{
+
+flex-basis: 25%;
+padding: 10px;
+
+
+
+}
+
+
+.card{
+
+
+padding: 50px 30px;
+border-radius: 10px;
+box-shadow: 2px 2px 2px 2px;
+color: rgba(250, 20, 20, 0.452);
+
+}
+
+.card h2{
+color: #222;
+font-weight: 900;
+
+font-size: 25px;
+
+
+}
+
+.card p{
+
+ color: rgb(24, 13, 13);
+    font-size: 18px;
+    line-height: 1;
+    margin: 10px 0 30px;
+}
+.card a{
+
+background-color: #0e0d0d;
+padding: 8px 20px;
+display: inline-block;
+text-decoration: none;
+color: aliceblue;
+border-radius: 6px;
+font-weight: 300;
+transition-duration: 0.4ms;
+
+}
+.card a:hover{
+
+background-color: #222;
+color: rgba(255, 145, 0, 0.986);
+
+}
+
+.card:hover{
+
+    background-color: rgba(68, 85, 79, 0.884);
+  
+}
+
+
+
+.card p:hover{
+color: black;
+
+}
+
+
+.card h2:hover{
+
+color: rgb(1, 1, 15);
+
+}
+
+span { 
+
+    background-color: blue;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size:  40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+           }
+
+
+
+
+
+
+.zerobanner02{
+  
+   padding: 10px 0px 0px 0px;
+
+    
+}
+
+
+
+.bannercontant02{
+
+    padding: 0 20px;
+ box-shadow: 0 2px 2px 2px;
+    border-radius: 5px;
+    border-top: 10px;
+
+    
+    
+}
+
+
+.bannercontant02 h1{
+
+
+text-align: center;
+
+
+
+}
+
+
+.zerobanner02:hover{
+
+color: #02441f;
+}
+
+
+
+
+/*
+
+
+
+text-align: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    color: rgba(250, 20, 20, 0.452);
+
+
+/*
